@@ -22,3 +22,31 @@ rm -rf yazi-temp yazi.zip
 yazi --version
 yazi
 ```
+
+# yazi-keybindings
+
+```bash
+Default Keybindings (Built-in)
+All the essential shortcuts already work:
+
+Help: ~
+Navigation: h/j/k/l (vim-style) or arrow keys
+Enter directory: l or Enter
+Go back: h or Backspace
+Search files: f (filter) or s (fd search)
+Search content: S (ripgrep)
+Toggle hidden: .
+Copy files: y
+Cut files: x
+Paste: p
+Delete: d
+Rename: r
+Create: a
+Select: Space
+Select all: Ctrl+a
+Open: Enter or l
+Shell command: :
+Quit: q
+
+
+```
