@@ -2,6 +2,7 @@
 
 ```bash
 sudo apt install kitty
+cp /usr/share/doc/kitty/examples/kitty.conf ~/.config/kitty/
 nvim ~/.config/kitty/kitty.conf
 # uncomment this line
 map kitty_mod+f11 toggle_fullscreen
