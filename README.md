@@ -2,7 +2,7 @@
 
 ```bash
 sudo apt install kitty
-nvim nano ~/.config/kitty/kitty.conf
+nvim ~/.config/kitty/kitty.conf
 # uncomment this line
 map kitty_mod+f11 toggle_fullscreen
 # where kitty_mod  = CTRL+SHIFT
