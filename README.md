@@ -22,6 +22,10 @@ sudo mv yazi-temp/*/{ya,yazi} /usr/local/bin
 rm -rf yazi-temp yazi.zip
 yazi --version
 yazi
+
+echo "alias yy='yazi'" >> ~/.bashrc
+source ~/.bashrc
+yy
 ```
 
 # yazi-keybindings
