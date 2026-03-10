@@ -23,6 +23,13 @@ rm -rf yazi-temp yazi.zip
 yazi --version
 yazi
 
+# Theme
+ya pkg add yazi-rs/flavors:dracula
+nvim ~/.config/yazi/theme.toml
+
+[flavor]
+dark = "dracula"
+
 echo "alias yy='yazi'" >> ~/.bashrc
 source ~/.bashrc
 yy
