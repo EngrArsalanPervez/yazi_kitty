@@ -25,13 +25,15 @@ yazi
 
 # Theme
 ya pkg add yazi-rs/flavors:dracula
-nvim ~/.config/yazi/theme.toml
 
+# Config
+nvim ~/.config/yazi/theme.toml
 [flavor]
 dark = "dracula"
 
-#echo "alias yy='yazi'" >> ~/.bashrc
 
+# Bashrc
+# echo "alias yy='yazi'" >> ~/.bashrc
 cat >> ~/.bashrc << 'EOF'
 function yy() {
     local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
@@ -43,7 +45,10 @@ function yy() {
 }
 EOF
 
+# Source Bashrc
 source ~/.bashrc
+
+# Yazi
 yy
 ```
 
